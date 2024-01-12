@@ -1,13 +1,25 @@
 [
-    {
-        "id": 1,
-        "name": "John Doe",
-        "handle": "@johndoe",
-        "profileImage": "https://via.placeholder.com/50",
-        "postImage": "https://via.placeholder.com/150",
-        "location": "New York, NY",
-        "caption": "Hello, World!",
-        "likes": 10,
-        "comments": 2
+  {
+    "user": {
+      "name": "John Doe",
+      "profilePicture": "https://pbs.twimg.com/profile_images/477146735005822976/h6_2vWWF_400x400.jpeg"
     },
+    "location": "New York, NY",
+    "postImage": "https://pbs.twimg.com/profile_images/477146735005822976/h6_2vWWF_400x400.jpeg",
+    "likes": 20,
+    "comments": 10
+    "captions": "This is Fabouslous"
+    "href": "www.ariaplus.net"
+  },
+  {
+    "user": {
+      "name": "Jane Smith",
+      "profilePicture": "https://pbs.twimg.com/profile_images/477146735005822976/h6_2vWWF_400x400.jpeg"
+    },
+    "location": "Los Angeles, CA",
+    "postImage": "https://pbs.twimg.com/profile_images/477146735005822976/h6_2vWWF_400x400.jpeg",
+    "likes": 15,
+    "comments": 8
+  }
+
 ]
