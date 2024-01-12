@@ -1,26 +1,42 @@
-body {
-    font-family: Arial, sans-serif;
+#tweetSection {
+ background-color: #ffffff;
+ padding: 20px;
+ border-radius: 5px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#main {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+#tweetProfile {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
-.tweet {
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin-bottom: 15px;
+#tweetProfile img {
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
 }
 
-.profile-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+#tweetName {
+ margin: 0;
+ margin-top: 5px;
 }
 
-.post-image {
-    width: 100%;
-    height: auto;
+#tweetUsername {
+ margin: 0;
+ color: #657786;
+}
+
+#tweetDate {
+ margin: 0;
+ color: #657786;
+}
+
+#tweetContent {
+ margin: 10px 0;
+}
+
+#tweetActions {
+ margin-top: 10px;
+ color: #657786;
 }
