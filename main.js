@@ -1,30 +1,57 @@
-const main = document.getElementById('main');
+document.addEventListener('DOMContentLoaded', function () {
+    // Fetch tweets from the JSON file
+    fetch('tweets.json')
+        .then(response => response.json())
+        .then(data => {
+            // Display tweets
+            const tweetsContainer = document.getElementById('tweets-container');
+            data.forEach(tweet => {
+                const tweetElement = createTweetElement(tweet);
+                tweetsContainer.appendChild(tweetElement);
+            });
+        })
+        .catch(error => console.error('Error fetching tweets:', error));
+});
 
-fetch('explore.json')
-    .then(response => response.json())
-    .then(data => {
-        data.forEach(tweet => {
-            const tweetDiv = document.createElement('div');
-            tweetDiv.classList.add('tweet');
+function createTweetElement(tweet) {
+    const tweetElement = document.createElement('div');
+    tweetElement.classList.add('tweet');
 
-            const profileImage = document.createElement('img');
-            profileImage.classList.add('profile-image');
-            profileImage.src = tweet.profileImage;
+    // User section
+    const userSection = document.createElement('div');
+    userSection.classList.add('user-section');
 
-            const postImage = document.createElement('img');
-            postImage.classList.add('post-image');
-            postImage.src = tweet.postImage;
+    const profilePicture = document.createElement('img');
+    profilePicture.src = tweet.user.profilePicture;
+    profilePicture.alt = 'Profile Picture';
+    userSection.appendChild(profilePicture);
 
-            const content = `
-                <h2>${tweet.name} <a href="https://www.ariaplus.net">@${tweet.handle}</a></h2>
-                <p>${tweet.caption}</p>
-                <img src="https://ariaplus.net/like.svg" alt="Like">
-                <span>${tweet.likes}</span>
-                <img src="https://ariaplus.net/comment.svg" alt="Comment">
-                <span>${tweet.comments}</span>
-            `;
+    const userName = document.createElement('span');
+    userName.textContent = tweet.user.name;
+    userSection.appendChild(userName);
 
-            tweetDiv.innerHTML = content;
-            main.appendChild(tweetDiv);
-        });
-    });
+    tweetElement.appendChild(userSection);
+
+    // Location
+    const location = document.createElement('p');
+    location.textContent = `Location: ${tweet.location}`;
+    tweetElement.appendChild(location);
+
+    // Post image
+    const postImage = document.createElement('img');
+    postImage.src = tweet.postImage;
+    postImage.alt = 'Post Image';
+    tweetElement.appendChild(postImage);
+
+    // Likes and comments
+    const likes = document.createElement('span');
+    likes.innerHTML = `<svg> <!-- Your SVG for likes icon --> </svg> ${tweet.likes} Likes`;
+    tweetElement.appendChild(likes);
+
+    const comments = document.createElement('span');
+    comments.innerHTML = `<svg> <!-- Your SVG for comments icon --> </svg> ${tweet.comments} Comments`;
+    tweetElement.appendChild(comments);
+
+    return tweetElement;
+}
+
