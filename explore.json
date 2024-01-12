@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "handle": "@johndoe",
+        "profileImage": "https://via.placeholder.com/50",
+        "postImage": "https://via.placeholder.com/150",
+        "location": "New York, NY",
+        "caption": "Hello, World!",
+        "likes": 10,
+        "comments": 2
+    },
+]
