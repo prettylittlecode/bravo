@@ -1,8 +1,7 @@
 {
- "profile": "https://example.com/profile.jpg",
- "name": "John Doe",
- "username": "@johndoe",
- "date": "2022-01-01",
- "content": "Hello, World!",
- "actions": "23 Retweets | 45 Likes"
+ "avatar": "https://example.com/avatar.jpg",
+ "username": "John Doe",
+ "content": "Check out this new project I'm working on!",
+ "image": "https://example.com/image.jpg",
+ "link": "https://www.ariaplus.net"
 }
