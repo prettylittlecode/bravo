@@ -10,6 +10,16 @@
  border-radius: 5px;
  max-width: 400px;
 }
+.tweet {
+  width: 500px;
+  background: black;
+  color: white;
+  display: block;
+  font-family: helvetica;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid red;
+}
 
 #avatar {
  width: 40px;
