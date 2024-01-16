@@ -10,7 +10,7 @@ fetch('explore.json')
         <a class="product-tittle" href="${product.url}" target="_blank">
           <h2>${product.name}</h2>
         </a>
-        <img src="${product.image}" alt="${product.name}" />
+        <img src="${product.image}" alt="${product.name}" style="width: 500px;height: 500px;object-fit: cover;object-position: top;border-radius: 10px;">
         <p>${product.description}</p>
         <a <button="" href="${product.url} type=" button"="" style="height: 45px;padding: 0px;text-decoration: none;color: white;text-align: center;display: flex;">
            <img alt="Image description" style="height: 30px;margin-top: 17px;padding-right: 5px;" src="https://i.postimg.cc/fbgg9FHp/ariaplus-blue-square-full-back1.jpg"> <p class="like-number" style="padding: 0px;margin: 0px;width: 30px;display: flex;margin-left: ;margin-top: 25px;"> ${product.likes}</p></a>
