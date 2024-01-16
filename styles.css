@@ -1,128 +1,33 @@
-/* main.css */
-#tweet {
- display: flex;
- flex-direction: column;
- align-items: center;
- margin: 10px;
- padding: 10px;
- background-color: #fff;
- border: 1px solid #ebebeb;
- border-radius: 5px;
- max-width: 400px;
+body {
+  font-family: Arial, sans-serif;
 }
-.tweet {
-width: 500px;
-  background: black;
-  color: white;
+
+#products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: 30%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product h2 {
+  margin-top: 0;
+}
+
+.buy-button {
   display: block;
-  font-family: helvetica;
-  padding: 30px;
-  border-radius: 10px;
-  border: 2px solid red;
-  max-width: fit-content;
-}
-
-.avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-bottom: 5px;
-  margin-right: 10px;
-}
-
-.username {
-margin: 0;
-    margin-bottom: 0px;
-  margin-bottom: 0px;
-  font-size: 15px;
-  font-weight: bold;
+  width: 100%;
+  background-color: #4CAF50;
   color: white;
-  display: ruby-text;
-  padding: 0px;
-  margin-bottom: 13px;
+  padding: 0.5rem;
+  text-align: center;
   text-decoration: none;
-}
-.handle {
-  padding: 0px;
-  margin: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-  font-size: 10px;
-  display: flow-root;
-  margin-left: 50px;
-  margin-top: -6%;
-}
-
-.content {
-  margin: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  font-size: 14px;
-  color: white;
-  margin-bottom: auto;
-  margin-top: 15px;
-  padding-bottom: 10px;
-}
-
-.image {
-width: 100%;
-  height: 250px;
-  margin-bottom: 5px;
-  border-radius: 10px;
-  object-fit: cover;
-}
-.likesicon {
-  width: 30px;
-  display: initial;
-  padding-bottom: 7px;
-}
-.likes {
-  margin: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-  padding: 0px;
-  display: ruby-text;
-  margin-right: 10px;
-  margin-top: 15px;
-}
-.commentsicon {
-  width: 30px;
-  padding-bottom: 7px;
-}
-.comments {
-  margin: 0;
-    margin-top: 0px;
-    margin-right: 0px;
-  display: initial;
-  padding: 0px;
-  display: ruby-text;
-  margin-right: 10px;
-  margin-top: 15px;
-}
-.sharesicon {
-  width: 30px;
-  padding-bottom: 7px;
-}
-.shares {
-  margin: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-  display: initial;
-  padding: 0px;
-  display: ruby-text;
-  margin-right: 10px;
-  margin-top: 15px;
-}
-.more {
-  width: 30px;
-  display: block;
-  margin-left: 93%;
-  margin-top: -40px;
-}
-
-.link {
- margin-top: 5px;
- color: blue;
- text-decoration: none;
- font-size: 12px;
+  border-radius: 4px;
+  margin-top: 1rem;
 }
