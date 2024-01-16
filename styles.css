@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-#products-container {
+.products-container {
   display: contents;
 }
 
