@@ -7,11 +7,15 @@ fetch('explore.json')
       const productElement = document.createElement('div');
       productElement.classList.add('product');
       productElement.innerHTML = `
-        <a class="product-tittle" href="${product.url} target="_blank" style="font-size: 60%;text-decoration: none;color: white;padding-bottom: 0px;margin-bottom: 0px;">
+       <img class="profilepicture" src="${product.profilepicture}" alt="${product.name}" style="width: 35px;height: 35px;object-fit: cover;object-position: top;border-radius: 3px;">
+        <a class="product-tittle" href="${product.url} target=" _blank"="" style="font-size: 60%;text-decoration: none;color: white;padding-bottom: 0px;margin-bottom: auto;display: flex;margin-top: -42px;margin-left: 40px;">
           <h2 style="margin-bottom: 0px;">${product.name}</h2>
         </a>
-        <a class="location" href="${product.locationurl} target="_blank" style="font-size: 60%;text-decoration: none;color: white;" class="location">
-          <h2 style="opacity: 80%;font-size: 12px;">${product.location}</h2>
+        <a class="location" href="${product.locationurl}" _blank"="" style="font-size: 100px;text-decoration: none;color: white;margin-left: 40px;display: flex;margin-top: -2px;">
+          <h2 style="opacity: 80%;font-size: 10px;padding: 0px;margin: 0px;">${product.location}</h2>
+        </a>
+        <a class="timestamp" href="${product.timestamp}" _blank"="" style="font-size: 100px;text-decoration: none;color: white;margin-left: 40px;display: flex;margin-bottom: 5px;">
+          <h2 style="opacity: 80%;font-size: 10px;padding: 0px;margin: 0px;">${product.time}</h2>
         </a>
         <img src="${product.image}" alt="${product.name}" style="width: 500px;height: 500px;object-fit: cover;object-position: top;border-radius: 10px;">
         <p>${product.description}</p>
