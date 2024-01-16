@@ -3,17 +3,19 @@ body {
 }
 
 #products-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: contents;
 }
 
 .product {
-  width: 30%;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  width: 500px;
+  background: black;
+  padding: 20px;
+  margin: 0px;
+    margin-bottom: 0px;
+  color: white;
+  font-family: helvetica;
+  height: fit-content;
+  margin-bottom: 10px;
 }
 
 .product h2 {
