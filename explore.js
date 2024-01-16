@@ -10,9 +10,11 @@ fetch('explore.json')
         <a class="product-tittle" href="${product.url}" target="_blank">
           <h2>${product.name}</h2>
         </a>
-        <p>${product.description}</p>
         <img src="${product.image}" alt="${product.name}" />
-        <a class="buy-button" href="${product.url}" target="_blank">Buy on Amazon</a>
+        <p>${product.description}</p>
+        <a class="like" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZE8P5VPtB4U0BHoMd7NpJerIJBPwh-Qv_GEx5DPcPtNjxg8E5V75V3oezm9xRtRD-mII&usqp=CAU" href="${product.url}" target="_blank">Like</a>
+        <a class="comment" href="${product.url}" target="_blank">Comments</a>
+        <a class="share" href="${product.url}" target="_blank">Share</a>
       `;
       productsContainer.appendChild(productElement);
     });
