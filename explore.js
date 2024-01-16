@@ -10,7 +10,7 @@ fetch('explore.json')
         <a class="product-tittle" href="${product.url} target="_blank" style="font-size: 60%;text-decoration: none;color: white;padding-bottom: 0px;margin-bottom: 0px;">
           <h2 style="margin-bottom: 0px;">${product.name}</h2>
         </a>
-        <a class="location" href="${product.location-url} target="_blank" style="font-size: 60%;text-decoration: none;color: white;" class="location">
+        <a class="location" href="${product.locationurl} target="_blank" style="font-size: 60%;text-decoration: none;color: white;" class="location">
           <h2 style="opacity: 80%;font-size: 12px;">${product.location}</h2>
         </a>
         <img src="${product.image}" alt="${product.name}" style="width: 500px;height: 500px;object-fit: cover;object-position: top;border-radius: 10px;">
