@@ -12,7 +12,6 @@ fetch('explore.json')
         </a>
         <img src="${product.image}" alt="${product.name}" />
         <p>${product.description}</p>
-        <img class="like" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZE8P5VPtB4U0BHoMd7NpJerIJBPwh-Qv_GEx5DPcPtNjxg8E5V75V3oezm9xRtRD-mII&usqp=CAU" href="${product.url}" target="_blank">Like</img>
         <a <button="" href="${product.url}" type="button" style="height: 45px;padding: 0px;background-color: #2b2ae8;width: 300px;border-radius: 10px;">
   <img alt="Image description" style="height: 45px;padding-left: 127px;" src="https://i.postimg.cc/fbgg9FHp/ariaplus-blue-square-full-back1.jpg">
 </a>
