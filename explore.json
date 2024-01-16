@@ -1,31 +1,16 @@
-{
- "avatar": "https://static.wikia.nocookie.net/tvdatabase/images/2/23/0dea5742c9a05a5fb0941d41d3efd33e.jpg/revision/latest?cb=20220223214823",
- "username": "https://ariaplus.net/mona",
- "handle": "@max",
- "content": "Check out this new project I'm working on!",
- "image": "https://geekxgirls.com/images/cosplay92/max-cosplay-02.jpg",
- "likesicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
- "likes": "x",
- "commentsicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
- "comments": "x",
- "sharesicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
- "shares": "x",
- "more": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
- "link": "https://www.ariaplus.net"
-},
-{
- "avatar": "https://static.wikia.nocookie.net/tvdatabase/images/2/23/0dea5742c9a05a5fb0941d41d3efd33e.jpg/revision/latest?cb=20220223214823",
- "username": "https://ariaplus.net/mona",
- "handle": "@kit",
- "content": "hi",
- "image": "https://geekxgirls.com/images/cosplay92/max-cosplay-02.jpg",
- "likesicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
- "likes": "x",
- "commentsicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
- "comments": "x",
- "sharesicon": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
- "shares": "x",
- "more": "https://thumbs.dreamstime.com/b/red-heart-icon-love-like-symbol-isolated-white-background-red-heart-icon-love-like-symbol-isolated-white-background-169058210.jpg",
- "link": "https://www.ariaplus.net"
-}
-
+[
+  {
+    "name": "Maddi Mini Dress - Grey",
+    "description": "Exceptional look. Fits like a second skin on the model. The straps combined with the gauntlet sleeves make for a very fashionable look. A must have for any woman in the early 20's to mid 50's who likes cocktail dresses, pantsuits, and mini dresses. When I gave it to the model after the shoot she was so excited to take it home and wear it out for a night on the town with her husband.",
+    "asin": "B08N5WRWNW",
+    "image": "https://www.fashionnova.com/cdn/shop/products/04-19-23Studio8_KT_AP_14-28-58_45_DH27852_Grey_0694_MR_468x.jpg?v=1682119388",
+    "url": "https://www.amazon.com/dp/B08N5WRWNW"
+  },
+  {
+    "name": "Example Product 2",
+    "description": "Another example product.",
+    "asin": "B08N5WRWNX",
+    "image": "https://example.com/product2.jpg",
+    "url": "https://www.amazon.com/dp/B08N5WRWNX"
+  }
+]
